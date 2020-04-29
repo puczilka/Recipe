@@ -242,4 +242,4 @@ def on_click(n_clicks, diet_value, cuisine_value, meal_plan, value):
 
 
 if __name__ == '__main__':
-    app.server.run(threaded=True, debug=False)#, dev_tools_ui=False, dev_tools_props_check=False)
+    app.run_server(threaded=True, debug=False)#, dev_tools_ui=False, dev_tools_props_check=False)
