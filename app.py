@@ -7,6 +7,7 @@ import dash_bootstrap_components as dbc
 import spoonacularapi
 import plotly.graph_objs as go
 import flask
+from waitress import serve
 from dash.dependencies import Input, Output
 
 # server = flask.Flask(__name__)
@@ -245,4 +246,4 @@ def on_click(n_clicks, diet_value, cuisine_value, meal_plan, value):
 
 
 if __name__ == '__main__':
-    app.run_server(threaded=True, debug=False)#, dev_tools_ui=False, dev_tools_props_check=False)
+    serve(app, host='127.0.0.1', port=5000)
