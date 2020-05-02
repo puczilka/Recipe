@@ -3,6 +3,8 @@ Meal plan to reduce panic buying, waste, and amount of visits to super market, s
 
 Deployed on heroku : https://food-planit.herokuapp.com/
 
+FUll code and version history can be found on: https://bitbucket.org/joczerw/recipesproject/
+
 REQUIRED COMPONENTS:
 > dash
 > dash_html_components
